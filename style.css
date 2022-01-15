@@ -129,6 +129,7 @@ body {
   }
 }
 
+div,
 .sa {
   /*color: #fff;*/
   animation: verde-neon 2.2s infinite alternate;
