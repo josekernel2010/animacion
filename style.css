@@ -101,43 +101,16 @@ body {
 
 #pre {
   font-size: 2.6em;
-  animation: azul-neon 2s infinite alternate;
-}
-
-@keyframes azul-neon {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50%,
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80,
-      -3px -3px 5px #bb0b80, -9px -9px 27px #eb36a5;
-  }
+  text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80, -3px -3px 5px #bb0b80,
+    -9px -9px 27px #eb36a5;
 }
 
 #sa {
-  animation: verde-neon 2.2s infinite alternate;
+  text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71, -3px -3px 5px #2ecc71,
+    -9px -9px 27px #2ecc71;
 }
 
-@keyframes verde-neon {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50%,
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
-      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
-  }
-}
+/*
+ text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80, -3px -3px 5px #bb0b80,
+    -9px -9px 27px #eb36a5;
+*/
