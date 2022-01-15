@@ -119,18 +119,9 @@ body {
     text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80,
       -3px -3px 5px #bb0b80, -9px -9px 27px #eb36a5;
   }
-  /*
-  10%,
-  15%,
-  60% {
-    text-shadow: none;
-  }
-}
-*/
 }
 
 #sa {
-  /*color: #fff;*/
   animation: verde-neon 2.2s infinite alternate;
 }
 
@@ -148,10 +139,5 @@ body {
   100% {
     text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
       -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
-  }
-  10%,
-  15%,
-  60% {
-    text-shadow: none;
   }
 }
