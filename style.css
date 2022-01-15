@@ -35,33 +35,6 @@ body {
   */
 }
 
-.sa {
-  /*color: #fff;*/
-  animation: verde-neon 2.2s infinite alternate;
-}
-
-@keyframes verde-neon {
-  0%,
-  10%,
-  20%,
-  30%,
-  40%,
-  50%,
-  60%,
-  70%,
-  80%,
-  90%,
-  100% {
-    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
-      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
-  }
-  10%,
-  15%,
-  60% {
-    text-shadow: none;
-  }
-}
-
 #rueda1 {
   font-size: 3em;
   font-weight: bold;
@@ -153,5 +126,32 @@ body {
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+
+.sa {
+  /*color: #fff;*/
+  animation: verde-neon 2.2s infinite alternate;
+}
+
+@keyframes verde-neon {
+  0%,
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
+    text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
+      -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
+  }
+  10%,
+  15%,
+  60% {
+    text-shadow: none;
   }
 }
