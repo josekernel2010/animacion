@@ -150,9 +150,4 @@ body {
     text-shadow: 9px 9px 18px #2ecc71, 3px 3px 5px #2ecc71,
       -3px -3px 5px #2ecc71, -9px -9px 27px #2ecc71;
   }
-  10%,
-  15%,
-  60% {
-    text-shadow: none;
-  }
 }
