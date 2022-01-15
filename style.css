@@ -131,7 +131,7 @@ body {
 
 #one,
 .sa {
-  /*color: #fff;*/
+  animation-name: verde-neon;
   animation: verde-neon 2.2s infinite alternate;
 }
 
