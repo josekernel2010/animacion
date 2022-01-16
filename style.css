@@ -108,9 +108,12 @@ body {
 #sa {
   text-shadow: 9px 9px 18px #1ada6a, 3px 3px 5px #2dee57, -3px -3px 5px #2dee57,
     -9px -9px 27px #1ada6a;
+  animation: verde-neon 1s infinite alternate-reverse;
 }
 
-/*
- text-shadow: 9px 9px 18px #eb36a5, 3px 3px 5px #bb0b80, -3px -3px 5px #bb0b80,
-    -9px -9px 27px #eb36a5;
-*/
+@keyframes verde-neon {
+  50% {
+    color: #74e0e4;
+    text-shadow: none;
+  }
+}
