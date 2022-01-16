@@ -91,9 +91,6 @@ body {
 }
 
 @keyframes rotar {
-  from {
-    transform: rotatex(0deg);
-  }
   to {
     transform: rotateY(360deg);
   }
@@ -114,8 +111,5 @@ body {
 @keyframes sa-animation {
   0% {
     color: #74e0e4;
-  }
-  50% {
-    color: #71f357;
   }
 }
