@@ -112,8 +112,10 @@ body {
 }
 
 @keyframes sa-animation {
-  to {
+  0% {
     color: #74e0e4;
-    text-shadow: none;
+  }
+  50% {
+    color: #71f357;
   }
 }
