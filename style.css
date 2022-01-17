@@ -105,8 +105,8 @@ body {
 }
 
 .sa {
-  text-shadow: 9px 9px 18px #1ada6a, 3px 3px 5px #2dee57, -3px -3px 5px #2dee57,
-    -9px -9px 27px #1ada6a;
+  text-shadow: 9vw 9vw 18vw #1ada6a, 3vw 3vw 5vw #2dee57, -3vw -3vw 5vw #2dee57,
+    -9vw -9vw 27vw #1ada6a;
   animation: sa-animation 1s alternate infinite;
 }
 
