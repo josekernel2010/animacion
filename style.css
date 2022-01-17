@@ -25,6 +25,7 @@ body {
   position: absolute;
   animation: rotar 30s infinite linear;
   transform-style: preserve-3d;
+  margin-top: 30px;
 }
 
 #content-carrousel:hover {
